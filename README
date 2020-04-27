@@ -1,0 +1,16 @@
+READ ME:
+
+Hope you will enjoy my work.
+I use Python 3.8 and worked with PyCharm Community Edition 2020.1 x64.
+First I chose testImg1.jpg because its a placement of my uncle and it was very dark image. So with the help of hsitogramEqualize
+function, the image looks better and now we can post it on Yad2.
+Second, I chose testImg2.jpg because it was nice picture but a little bit dark and not balanced.
+
+My functions:
+imReadAndConvert: Reads an image, and returns the image converted as requested
+imDisplay: Reads an image as RGB or GRAY_SCALE and displays it
+transformRGB2YIQ: Converts an RGB image to YIQ color space
+transformYIQ2RGB: Converts an YIQ image to RGB color space
+histogramEqualize: Equalizes the histogram of an image
+quantizeImage: Quantized an image in to nQuant colors
+gammaDisplay: GUI for gamma correction and calculate
